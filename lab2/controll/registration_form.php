@@ -2,15 +2,17 @@
 $validatename="";
 $validateemail="";
 $validatepassword="";
+$validatecomment="";
 $validatecheckbox="";
 $validateradio="";
 $singing=$dancing=$reading="";
-$name=$email=$password=$gender="";
+$name=$email=$password=$comment=$gender="";
 if(isset($_POST["registrationform"]))
 {
 $name=$_REQUEST["fullname"];
 $email=$_REQUEST["email"];
 $password=$_REQUEST["password"];
+$comment=$_REQUEST["comment"];
 if(empty($_REQUEST["fullname"]) || (strlen($_REQUEST["fullname"])<3))
 {
     $validatename= "you must enter fullname";
@@ -35,6 +37,13 @@ if(empty($_REQUEST["password"]) || (strlen($_REQUEST["password"])<8))
 else
 {
     $password=$_REQUEST["password"];
+}
+if(strlen($comment)<20)
+{
+    $validatecomment=" Comment Must Contain 10 character!!";
+}
+else{
+    $validatecomment=$comment;
 }
 
 if(isset($_REQUEST["gender"]))

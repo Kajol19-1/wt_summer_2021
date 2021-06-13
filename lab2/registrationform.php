@@ -14,7 +14,7 @@ E-mail: <input type="text" name="email"> <?php echo $validateemail; ?>
 Password: <input type="password" name="password"> <?php echo $validatepassword; ?>
 <?php echo $password; ?>
 <br><br>
-Comment:<br><textarea name="comment" rows="10" cols="30"></textarea><br>
+Comment:<br><textarea name="comment" rows="10" cols="30"></textarea> <?php echo $validatecomment; ?><br><br>
 
 Please select your gender:
   <input type="radio" id="male" name="gender" value="male">
