@@ -1,0 +1,38 @@
+[
+    {
+        "fullame": "kajol",
+        "email": "kajol.99bd@gmail.com",
+        "password": "12345678",
+        "comment": "My name is kajol.",
+        "gender": "male",
+        "hobby": ",Reading",
+        "file": "files\/bd flag.jpg"
+    },
+    {
+        "fullame": "abir",
+        "email": "abirhasan@gmail.com",
+        "password": "87654321",
+        "comment": "My name is abirhasan.",
+        "gender": "male",
+        "hobby": ",Singing,Reading",
+        "file": "files\/flower.jpg"
+    },
+    {
+        "fullame": "sakibhasan",
+        "email": "sakibhasan@gamil.com",
+        "password": "35467585686",
+        "comment": "My name is sakib hasan.",
+        "gender": "male",
+        "hobby": "Dancing,Reading",
+        "file": "files\/flower2.jpg"
+    },
+    {
+        "fullame": "Nahid",
+        "email": "nahid@gmail.com",
+        "password": "3858576922",
+        "comment": "My name is nahid.",
+        "gender": "male",
+        "hobby": "Dancing,Singing",
+        "file": "files\/flower.jpg"
+    }
+]
