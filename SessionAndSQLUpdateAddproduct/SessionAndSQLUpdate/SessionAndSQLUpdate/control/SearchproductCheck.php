@@ -8,7 +8,7 @@ if(isset($_REQUEST['search']))
     
     if(empty($_POST['pname']))
     {
-        $error=" Product name can not empty !!";
+        $error=" Please Enter the Product Name..";
     }
 
     else 
@@ -28,7 +28,8 @@ if(isset($_REQUEST['search']))
               echo "Product Description : ".$row["P_Desc"]."<br>";
               echo "Product Category : ".$row["P_Category"]."<br>";
               echo "Product price : ".$row["P_Price"]."<br>";
-              echo "<img src='".$row['P_Picture']."'>";
+              $image=$row['P_Picture'];
+              echo "<img src='$image'width=50px >";
         
             }
 

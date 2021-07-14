@@ -15,7 +15,8 @@ if ($SearchProduct->num_rows > 0) {
       echo "Product Description : ".$row["P_Desc"]."<br>";
       echo "Product Category : ".$row["P_Category"]."<br>";
       echo "Product price : ".$row["P_Price"]."<br>";
-      echo "<img src='".$row['P_Picture']."'><br><br>";
+      $image=$row['P_Picture'];
+      echo "<img src='$image'width=50px >";
 
     }
 }
