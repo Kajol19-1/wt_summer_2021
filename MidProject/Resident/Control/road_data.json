@@ -1,0 +1,20 @@
+[
+    {
+        "issuetype": "manhole",
+        "location": "uttara,12 road,dhaka",
+        "details": "this road is broken.",
+        "file": "files\/download.jpg"
+    },
+    {
+        "issuetype": "roadsurface",
+        "location": "bashundhara,main road,dhaka",
+        "details": "dhuehfjajdhfdd",
+        "file": "files\/download.png"
+    },
+    {
+        "issuetype": "footpath",
+        "location": "fdasgs",
+        "details": "dsgsagas",
+        "file": "files\/download.jpg"
+    }
+]

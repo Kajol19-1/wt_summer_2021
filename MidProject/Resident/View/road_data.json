@@ -1,0 +1,20 @@
+[
+    {
+        "issuetype": "manhole",
+        "location": "hatirjheel,dhaka",
+        "details": "fghshgfyykhjkgh",
+        "file": "files\/19.jpg"
+    },
+    {
+        "issuetype": "manhole",
+        "location": "uttara",
+        "details": "jhgfhjga",
+        "file": "files\/download.jpg"
+    },
+    {
+        "issuetype": "roadsurface",
+        "location": "ldhakja",
+        "details": "fadsfafd",
+        "file": "..\/files\/download.jpg"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "id" : "uniqid()",
+        "name" : "$name",
+        "contact" : "$contact",
+        "address" : "$address",
+        "skill" : "$skill",
+        "availablity" : "$availablity",
+        "jobs_completed" : "$jobs_completed"
+    }
+]
